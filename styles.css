@@ -1,0 +1,40 @@
+.general, .contact{
+    width: auto;
+    height: 350px;
+    background-color: green;
+ }
+ul.list {
+    margin: 0;
+    display: flex;
+    padding: 4px;
+    text-align: center;
+    }
+
+ul.list li{
+    background-color: green;
+    display: inline;
+    margin:10px;
+    padding: 3px;
+}
+
+li {
+    border: 1px solid #000;
+    margin: auto;
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+}
+p, .item {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    height: 200px;
+    width: 1000px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.item {
+    width: 2000px;
+    height: 350px;
+    background-color: green;
+}
