@@ -1,40 +1,37 @@
-.general, .contact{
-    width: auto;
-    height: 350px;
-    background-color: green;
- }
 ul.list {
     margin: 0;
     display: flex;
     padding: 4px;
     text-align: center;
-    }
 
+    }
 ul.list li{
-    background-color: green;
+    background-color:paleturquoise;
     display: inline;
     margin:10px;
     padding: 3px;
+    text-align: center;
+    border: 1px solid #000;
+
 }
 
-li {
-    border: 1px solid #000;
-    margin: auto;
-    width: 1000px;
-    height: 200px;
+p {
     text-align: center;
-}
-p, .item {
-    text-align: center;
-    display: table-cell;
+    /*display: table-cell;*/
     vertical-align: middle;
-    height: 200px;
-    width: 1000px;
-    font-weight: bold;
-    font-size: 40px;
+    height: 50px;
+    width:auto;
+    font-size: 25px;
+    margin: 15px 15px;
 }
-.item {
-    width: 2000px;
-    height: 350px;
-    background-color: green;
+
+button {
+    margin-bottom: 20px;
+}
+a {
+    font-size: 25px;
+    text-decoration: none;
+}
+h2 {
+    font-size: 40px;
 }
